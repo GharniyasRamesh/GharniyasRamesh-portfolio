@@ -530,7 +530,22 @@ button[type="submit"]:hover {
     color: var(--form-error-color);
     margin-top: 0.5em;
 }
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 1.5em; 
+    }
 
+    nav a {
+        font-size: 0.9em;
+        padding: 0.4em 1em; 
+        margin: 0.2em;
+    }
+
+    .scroll-button {
+        font-size: 0.9em; 
+    }
+
+}
 @media screen and (max-width: 800px) {
     h1 {
         font-size: 2em;
@@ -545,6 +560,41 @@ button[type="submit"]:hover {
     .scroll-button {
         font-size: 1em;
     }
+}
+@media screen and (max-width: 1200px) {
+    body {
+        font-size: 16px;
+    }
+
+    header {
+        padding: 1em; 
+    }
+
+    nav {
+        padding: 0.5em; 
+    }
+
+    nav a {
+        padding: 0.5em 1em; 
+    }
+
+    section {
+        margin: 1em; 
+        padding: 0.5em; 
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 2em; 
+    }
+
+    h2 {
+        font-size: 1.5em; 
+    }
+
 }
 
 @keyframes fadeIn {
