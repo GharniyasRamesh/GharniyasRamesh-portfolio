@@ -530,18 +530,39 @@ button[type="submit"]:hover {
     color: var(--form-error-color);
     margin-top: 0.5em;
 }
+@media screen and (max-width: 480px) {
+    #banner_content{
+        font-size: x-small;
+    }
+   
 
+    nav a {
+        font-size: 0.9em; 
+        padding: 0.4em 1em;
+        margin: 0.3em;
+    }
+
+    .scroll-button {
+        font-size: 1em; 
+    }
+
+   
+    #banner {
+        height: 370px;
+        width: 500px;
+      
+    
+    }
+
+}
 
 @media screen and (max-width: 800px) {
     h1 {
         font-size: 1.8em;
     }
-    .bannerh{
-        font-size: 40px;
-    }
-    .bannerc{
-        font-size: 30px;
-    }
+   #banner_content{
+    font-size: small;
+   }
     nav a {
         font-size: 0.9em;
         padding: 0.4em 1em;
@@ -550,6 +571,12 @@ button[type="submit"]:hover {
 
     .scroll-button {
         font-size: 1em;
+    }
+    #banner {
+        height: 370px;
+        width: 800px;
+      
+    
     }
  
 }
