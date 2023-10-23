@@ -544,6 +544,16 @@ button[type="submit"]:hover {
     .scroll-button {
         font-size: 0.8em; 
     }
+    #banner {
+        max-height: 100px; 
+       
+    }
+
+    #profile-pic {
+        width: 100px;
+        height: 100px; 
+        margin-right: 0.5em; 
+    }
 
 }
 @media screen and (max-width: 800px) {
@@ -558,7 +568,17 @@ button[type="submit"]:hover {
     }
 
     .scroll-button {
-        font-size: 0.9em;
+        font-size: 1em;
+    }
+    #banner {
+        height: 230px; 
+        width: 750px;
+        
+    }
+
+    #profile-pic {
+        width: 150px; 
+        height: 150px; 
     }
 }
 @media screen and (max-width: 1200px) {
@@ -593,6 +613,15 @@ button[type="submit"]:hover {
 
     h2 {
         font-size: 1.5em; 
+    }
+    #banner {
+        max-height: 500px; 
+        
+    }
+
+    #profile-pic {
+        width: 200px; 
+        height: 200px; 
     }
 
 }
