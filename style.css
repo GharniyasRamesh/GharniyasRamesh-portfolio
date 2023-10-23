@@ -530,9 +530,16 @@ button[type="submit"]:hover {
     color: var(--form-error-color);
     margin-top: 0.5em;
 }
+
 @media screen and (max-width: 480px) {
     h1 {
         font-size: 1em; 
+    }
+    .bannerh{
+        font-size: 20px;
+    }
+    .bannerc{
+        font-size: 10px;
     }
 
     nav a {
@@ -545,7 +552,8 @@ button[type="submit"]:hover {
         font-size: 0.8em; 
     }
     #banner {
-        max-height: 100px; 
+        min-height: 250px;
+        width: 10px; 
        
     }
 
@@ -554,6 +562,7 @@ button[type="submit"]:hover {
         height: 100px; 
         margin-right: 0.5em; 
     }
+    
 
 }
 @media screen and (max-width: 800px) {
