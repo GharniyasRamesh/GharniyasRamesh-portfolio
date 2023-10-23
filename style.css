@@ -553,7 +553,7 @@ button[type="submit"]:hover {
     }
     #banner {
         max-height: 250px;
-        width: 10px; 
+        width: 30px; 
        
     }
 
@@ -580,9 +580,9 @@ button[type="submit"]:hover {
         font-size: 1em;
     }
     #banner {
-        height: 230px; 
-        width: 750px;
-        
+        max-height: 300px;
+        width: 70px; 
+       
     }
 
     #profile-pic {
