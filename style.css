@@ -559,19 +559,22 @@ button[type="submit"]:hover {
     
     }
     nav ul  {
-        font-size: 0.6em; 
+        font-size: 0.5em; 
         padding: 0.4em 1em;
         margin: 0.3em;
 
     }
     h2 {
-        font-size: 0.8em;
+        font-size: 0.9em;
     }
     .ml-lg-5{
-        font-size: 0.5em;
+        font-size: 0.6em;
     }
     h3 {
-        font-size: 1em;
+        font-size: 1.1em;
+    }
+    .contact-form{
+        padding: 20px;
     }
     footer{
         font-size: 0.5em;
@@ -582,21 +585,7 @@ button[type="submit"]:hover {
     
 
 @media screen and (max-width: 800px) {
-    h2 {
-        font-size: 1.5em;
-    }
-   body{
-    max-width: 100%;
-   }
-    nav a {
-        font-size: 0.9em;
-        padding: 0.4em 1em;
-        margin: 0.3em;
-    }
-
-    .scroll-button {
-        font-size: 1em;
-    }
+    
     #banner {
        max-width: 100%;
       
