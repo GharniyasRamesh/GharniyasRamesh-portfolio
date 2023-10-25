@@ -575,6 +575,7 @@ button[type="submit"]:hover {
     }
     .contact-form{
         padding: 30px;
+        margin-left: 50px;
     }
     footer{
         font-size: 0.5em;
